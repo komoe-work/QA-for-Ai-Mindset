@@ -211,8 +211,9 @@ export default function App() {
   const Footer = () => (
     <footer className="bg-white border-t border-slate-200 px-8 py-4 flex flex-col md:flex-row justify-between items-center text-[11px] text-slate-400 font-medium gap-4 mt-auto">
       <span>&copy; {new Date().getFullYear()} AI Mindset Academy. All Rights Reserved.</span>
-      <div className="flex space-x-6">
-        <a href="#" className="hover:text-blue-600">Learning Portal</a>
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+        <a href="https://intent-architect.mindset-it.online/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 font-bold text-blue-500/80">Intent Architect</a>
+        <a href="https://ai.mindset-it.online/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Learning Portal</a>
         <a href="#" className="hover:text-blue-600">Support Center</a>
         <a href="#" className="hover:text-blue-600">Terms of Service</a>
       </div>
